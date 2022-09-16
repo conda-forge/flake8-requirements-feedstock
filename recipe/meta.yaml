@@ -1,4 +1,4 @@
-{% set version = "1.7.0" %}
+{% set version = "1.7.1" %}
 
 package:
   name: flake8-requirements
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/Arkq/flake8-requirements/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: bc3d042a8f62e1c7714187359a29b94272732d543c42755314c8dde46f3830a6
+  sha256: 867fe37d974d5d90c12a7ded0e0c79b7bff457f5646c72e9ce753550d0e34aae
 
 build:
   noarch: python
