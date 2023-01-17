@@ -22,7 +22,7 @@ requirements:
     - python >=3.6
     - flake8 >=2.0
     - setuptools >=10.0.0
-    - toml >=0.7.0
+    - tomli >=1.2.1
 
 test:
   requires:
