@@ -1,4 +1,4 @@
-{% set version = "1.7.5" %}
+{% set version = "1.7.6" %}
 
 package:
   name: flake8-requirements
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/Arkq/flake8-requirements/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 02b327f032418c1ad2ab58874e95a3b64b27255a0586175428f2145a6d0b9a0e
+  sha256: 31ca7b526e5ce7379f5c46ea06d4a91a8e8b839d869debd05ab08bce7684623d
 
 build:
   noarch: python
@@ -22,7 +22,7 @@ requirements:
     - python >=3.6
     - flake8 >=2.0
     - setuptools >=10.0.0
-    - toml >=0.7.0
+    - tomli >=1.2.1
 
 test:
   requires:
