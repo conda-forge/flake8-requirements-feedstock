@@ -1,11 +1,11 @@
-About flake8-requirements
-=========================
+About flake8-requirements-feedstock
+===================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/flake8-requirements-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/Arkq/flake8-requirements
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/flake8-requirements-feedstock/blob/main/LICENSE.txt)
 
 Summary: This module provides a plug-in for flake8, which checks/validates package import requirements.
 
