@@ -20,7 +20,7 @@ requirements:
     - pytest-runner
   run:
     - python >=3.6
-    - flake8 >=2.0
+    - flake8 >=4.0
     - setuptools >=10.0.0
     - tomli >=1.2.1
 
