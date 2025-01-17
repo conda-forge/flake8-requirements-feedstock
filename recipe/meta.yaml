@@ -10,16 +10,16 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3.6
+    - python {{ python_min }}
     - pip
     - pytest-runner
   run:
-    - python >=3.6
+    - python >={{ python_min }}
     - flake8 >=4.0
     - setuptools >=10.0.0
     - tomli >=1.2.1
@@ -28,6 +28,7 @@ test:
   requires:
     - pip
     - m2-grep  # [win]
+    - python {{ python_min }}
   commands:
     - pip check
     - flake8 --version | grep flake8-requirements
