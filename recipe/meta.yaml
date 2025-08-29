@@ -17,12 +17,11 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
-    - pytest-runner
   run:
     - python >={{ python_min }}
     - flake8 >=4.0
-    - setuptools >=10.0.0
     - tomli >=1.2.1
+    - packaging >=20.0
 
 test:
   requires:
